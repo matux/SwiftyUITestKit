@@ -49,14 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B3765C01FBE39F9005FC37F /* XCUITestPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCUITestPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3765C01FBE39F9005FC37F /* SwiftyUITestKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyUITestKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3765C31FBE39F9005FC37F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B3765C51FBE39F9005FC37F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B3765C81FBE39F9005FC37F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B3765CA1FBE39F9005FC37F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B3765CD1FBE39F9005FC37F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B3765CF1FBE39F9005FC37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B3765D41FBE39FA005FC37F /* XCUITestPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCUITestPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3765D41FBE39FA005FC37F /* SwiftyUITestKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyUITestKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3765DA1FBE39FA005FC37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B3765F61FBE3B4F005FC37F /* XCUIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCUIApplication+Extension.swift"; sourceTree = "<group>"; };
 		3B3765F71FBE3B4F005FC37F /* XCTestCase+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Extension.swift"; sourceTree = "<group>"; };
@@ -105,8 +105,8 @@
 		3B3765B71FBE39F9005FC37F = {
 			isa = PBXGroup;
 			children = (
-				3B3765C21FBE39F9005FC37F /* XCUITestPlus */,
-				3B3765D71FBE39FA005FC37F /* XCUITestPlusUITests */,
+				3B3765D71FBE39FA005FC37F /* SwiftyUITestKit */,
+				3B3765C21FBE39F9005FC37F /* SwiftyUITestKit-Example */,
 				3B3765C11FBE39F9005FC37F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,13 +114,13 @@
 		3B3765C11FBE39F9005FC37F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B3765C01FBE39F9005FC37F /* XCUITestPlus.app */,
-				3B3765D41FBE39FA005FC37F /* XCUITestPlusUITests.xctest */,
+				3B3765C01FBE39F9005FC37F /* SwiftyUITestKit.app */,
+				3B3765D41FBE39FA005FC37F /* SwiftyUITestKitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B3765C21FBE39F9005FC37F /* XCUITestPlus */ = {
+		3B3765C21FBE39F9005FC37F /* SwiftyUITestKit-Example */ = {
 			isa = PBXGroup;
 			children = (
 				3B3765C31FBE39F9005FC37F /* AppDelegate.swift */,
@@ -130,10 +130,10 @@
 				3B3765CC1FBE39F9005FC37F /* LaunchScreen.storyboard */,
 				3B3765CF1FBE39F9005FC37F /* Info.plist */,
 			);
-			path = XCUITestPlus;
+			path = "SwiftyUITestKit-Example";
 			sourceTree = "<group>";
 		};
-		3B3765D71FBE39FA005FC37F /* XCUITestPlusUITests */ = {
+		3B3765D71FBE39FA005FC37F /* SwiftyUITestKit */ = {
 			isa = PBXGroup;
 			children = (
 				3B3765E31FBE3A68005FC37F /* Test Cases */,
@@ -142,7 +142,7 @@
 				3B37661B1FBE3DAB005FC37F /* Util */,
 				3B3765DA1FBE39FA005FC37F /* Info.plist */,
 			);
-			path = XCUITestPlusUITests;
+			path = SwiftyUITestKit;
 			sourceTree = "<group>";
 		};
 		3B3765E31FBE3A68005FC37F /* Test Cases */ = {
@@ -208,9 +208,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B3765BF1FBE39F9005FC37F /* XCUITestPlus */ = {
+		3B3765BF1FBE39F9005FC37F /* SwiftyUITestKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B3765DD1FBE39FA005FC37F /* Build configuration list for PBXNativeTarget "XCUITestPlus" */;
+			buildConfigurationList = 3B3765DD1FBE39FA005FC37F /* Build configuration list for PBXNativeTarget "SwiftyUITestKit" */;
 			buildPhases = (
 				3B3765BC1FBE39F9005FC37F /* Sources */,
 				3B3765BD1FBE39F9005FC37F /* Frameworks */,
@@ -220,14 +220,14 @@
 			);
 			dependencies = (
 			);
-			name = XCUITestPlus;
+			name = SwiftyUITestKit;
 			productName = XCUITestPlus;
-			productReference = 3B3765C01FBE39F9005FC37F /* XCUITestPlus.app */;
+			productReference = 3B3765C01FBE39F9005FC37F /* SwiftyUITestKit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3B3765D31FBE39FA005FC37F /* XCUITestPlusUITests */ = {
+		3B3765D31FBE39FA005FC37F /* SwiftyUITestKitUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B3765E01FBE39FA005FC37F /* Build configuration list for PBXNativeTarget "XCUITestPlusUITests" */;
+			buildConfigurationList = 3B3765E01FBE39FA005FC37F /* Build configuration list for PBXNativeTarget "SwiftyUITestKitUITests" */;
 			buildPhases = (
 				3B3765D01FBE39FA005FC37F /* Sources */,
 				3B3765D11FBE39FA005FC37F /* Frameworks */,
@@ -238,9 +238,9 @@
 			dependencies = (
 				3B3765D61FBE39FA005FC37F /* PBXTargetDependency */,
 			);
-			name = XCUITestPlusUITests;
+			name = SwiftyUITestKitUITests;
 			productName = XCUITestPlusUITests;
-			productReference = 3B3765D41FBE39FA005FC37F /* XCUITestPlusUITests.xctest */;
+			productReference = 3B3765D41FBE39FA005FC37F /* SwiftyUITestKitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -264,7 +264,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3B3765BB1FBE39F9005FC37F /* Build configuration list for PBXProject "XCUITestPlus" */;
+			buildConfigurationList = 3B3765BB1FBE39F9005FC37F /* Build configuration list for PBXProject "SwiftyUITestKit" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -277,8 +277,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B3765BF1FBE39F9005FC37F /* XCUITestPlus */,
-				3B3765D31FBE39FA005FC37F /* XCUITestPlusUITests */,
+				3B3765BF1FBE39F9005FC37F /* SwiftyUITestKit */,
+				3B3765D31FBE39FA005FC37F /* SwiftyUITestKitUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -349,7 +349,7 @@
 /* Begin PBXTargetDependency section */
 		3B3765D61FBE39FA005FC37F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3B3765BF1FBE39F9005FC37F /* XCUITestPlus */;
+			target = 3B3765BF1FBE39F9005FC37F /* SwiftyUITestKit */;
 			targetProxy = 3B3765D51FBE39FA005FC37F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -487,9 +487,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 966KP9HL88;
-				INFOPLIST_FILE = XCUITestPlus/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftyUITestKit-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.matiaspequeno.XCUITestPlus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matiaspequeno.SwiftyUITestKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -502,9 +502,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 966KP9HL88;
-				INFOPLIST_FILE = XCUITestPlus/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftyUITestKit-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.matiaspequeno.XCUITestPlus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matiaspequeno.SwiftyUITestKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -546,7 +546,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B3765BB1FBE39F9005FC37F /* Build configuration list for PBXProject "XCUITestPlus" */ = {
+		3B3765BB1FBE39F9005FC37F /* Build configuration list for PBXProject "SwiftyUITestKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B3765DB1FBE39FA005FC37F /* Debug */,
@@ -555,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B3765DD1FBE39FA005FC37F /* Build configuration list for PBXNativeTarget "XCUITestPlus" */ = {
+		3B3765DD1FBE39FA005FC37F /* Build configuration list for PBXNativeTarget "SwiftyUITestKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B3765DE1FBE39FA005FC37F /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B3765E01FBE39FA005FC37F /* Build configuration list for PBXNativeTarget "XCUITestPlusUITests" */ = {
+		3B3765E01FBE39FA005FC37F /* Build configuration list for PBXNativeTarget "SwiftyUITestKitUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B3765E11FBE39FA005FC37F /* Debug */,
